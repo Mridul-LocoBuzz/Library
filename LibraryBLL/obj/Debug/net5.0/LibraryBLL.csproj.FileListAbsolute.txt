@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\LibraryBLL.deps.json
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\LibraryBLL.dll
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\ref\LibraryBLL.dll
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\LibraryBLL.pdb
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\LibraryDAL.dll
+C:\Users\admin\source\repos\Library\LibraryBLL\bin\Debug\net5.0\LibraryDAL.pdb
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.AssemblyInfo.cs
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.csproj.CopyComplete
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.dll
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\ref\LibraryBLL.dll
+C:\Users\admin\source\repos\Library\LibraryBLL\obj\Debug\net5.0\LibraryBLL.pdb
