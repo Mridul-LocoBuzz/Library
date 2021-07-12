@@ -25,13 +25,25 @@ namespace Library.Controllers
 
         [HttpPost]
         [Route("id")]
-        public LibDataModel Getbyid(int id=0)
+        public LibDataModel Getbyid(int id)
         {
             LibLogics libdata = new();
             LibDataModel alldata;
             alldata = libdata.getDatabyid(id);
             return alldata;     
         }
+
+        [HttpPost]
+        [Route("bookname")]
+        public LibDataModel Getbybookname(string bookname)
+        {
+            LibLogics libdata = new();
+            LibDataModel alldata;
+            alldata = libdata.getDatabyname(bookname);
+            return alldata;
+        }
+
+        
 
         //[HttpPost]
         //public 

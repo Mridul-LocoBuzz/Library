@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDAL.Models
 {
-    class BookModel
+    public class BookModel
     {
         public int uniqueId {get; set;}
         public string bookName { get; set; }

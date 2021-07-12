@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using LibraryDAL.Models;
+
 
 namespace LibraryBLL
 {
@@ -14,9 +16,21 @@ namespace LibraryBLL
         public string seralisedbooks() 
         {
             BookData bookdata = new();
-            ArrayList books = bookdata.insertBooks();
+            List<ArrayList> books = bookdata.insertBooks();
             string sbooks = JsonConvert.SerializeObject(books);
             return sbooks;
+        }
+
+        public List<BookModel> deseralisedbooks()
+        {
+            BookData bookdata = new();
+            List<BookModel> deserbooks;
+            List<ArrayList> books = bookdata.insertBooks();
+            string sbooks = JsonConvert.SerializeObject(books);
+            deserbooks = JsonConvert.DeserializeObject<List<BookModel>>(sbooks);
+            return deserbooks;
+
+            
         }
     }
 }

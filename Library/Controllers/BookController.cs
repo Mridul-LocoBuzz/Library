@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LibraryDAL.Data;
 using LibraryBLL;
+using LibraryDAL.Models;
 
 namespace Library.Controllers
 {
@@ -15,10 +16,10 @@ namespace Library.Controllers
     public class BookController : ControllerBase
     {
         [HttpGet]
-        public ArrayList Getbooks() 
+        public List<ArrayList> Getbooks()
         {
             BookData bookdata = new();
-            ArrayList books = bookdata.insertBooks();
+            List<ArrayList> books = bookdata.insertBooks();
             return books;
         }
 
@@ -28,6 +29,15 @@ namespace Library.Controllers
         {
             BookLogics booklogic = new();
             string books = booklogic.seralisedbooks();
+            return books;
+        }
+
+        [HttpGet]
+        [Route("deseralised")]
+        public List<BookModel> Getdeseralisedbooks()
+        {
+            BookLogics booklogic = new();
+            List<BookModel> books = booklogic.deseralisedbooks();
             return books;
         }
     }
